@@ -35,7 +35,7 @@ a:hover {
     text-align: center; } }
 
 #landing-section {
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(6, 47, 79, 0.5), rgba(129, 55, 114, 0.5), rgba(184, 38, 1, 0.5)), url("../images/background2.jpg");
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(6, 47, 79, 0.5), rgba(129, 55, 114, 0.5), rgba(184, 38, 1, 0.5)), url("../images/background2-min.jpg");
   background-position: center;
   background-size: cover;
   padding-top: 80px;
@@ -49,7 +49,7 @@ a:hover {
         margin-top: 10vh; } }
 
 .profile-pic {
-  margin-top: 10vh;
+  margin: 10vh auto;
   max-width: 40%;
   border-radius: 50%; }
   @media (min-width: 768px) {
@@ -84,7 +84,7 @@ a:hover {
 
 .project-pic {
   max-width: 50%;
-  margin: 5vh 0; }
+  margin: 5vh auto; }
 
 #matchfacts-logo {
   font-family: "Euronism_b", sans-serif;
@@ -101,23 +101,25 @@ a:hover {
 
 #contact-section {
   background-color: #000000;
-  height: 86vh;
-  padding-top: 50px;
+  height: 90vh;
+  padding-top: 20vh;
   text-align: center; }
   #contact-section hr {
     margin-bottom: 5vh; }
-  #contact-section a {
-    display: inline-block;
-    opacity: 0; }
 
 #email {
   font-size: 20px;
   margin: 0 10px; }
 
+#resume-link {
+  margin: 10px auto; }
+  #resume-link a {
+    color: white; }
+
 .social-row {
   padding-top: 10vh; }
   .social-row a {
-    margin: 20px 40px; }
+    margin: 20px 8vw; }
 
 .navbar-inverse .navbar-nav > li > a:hover {
   color: #B82601; }

@@ -11,7 +11,8 @@
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-    <link rel="stylesheet" href="stylesheets/animate.css" />
+    <!-- Material Design Bootstrap -->
+    <link href="stylesheets/mdb.min.css" rel="stylesheet">
     <link rel='stylesheet' href='stylesheets/style.css' />
     <script src="https://use.fontawesome.com/450228d240.js"></script>
 </head>
@@ -67,7 +68,7 @@
 
                 </div>
                 <div class="col-md-8 col-xs-12">
-                    <h1>About Me</h1>
+                    <h1 class="wow fadeInUp">About Me</h1>
                     <hr style="border: 2px solid #813772; width: 25%; margin-left: 38%; margin-bottom: 0">
                     <p>I'm a graduate of <a href="https://www.ironhack.com/">Ironhack</a> and studied Computer Engineering at Florida International University before that. I love solving problems and helping people with software! I live in Miami and when
                         I'm not coding, I like to play basketball, guitar, study history, and learn about new technologies!
@@ -83,7 +84,7 @@
     <div class="container-fluid" id="projects-section-before">
         <div class="row">
             <div class="col-xs-12">
-                <h1>Projects</h1>
+                <h1 class="wow fadeInUp">Projects</h1>
                 <hr style="border: 2px solid #813772; width: 25%; margin-left: 38%; margin-bottom: 0">
             </div>
         </div>
@@ -92,17 +93,17 @@
     <div id="projects-section">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-4 col-xs-12 project" id="project1">
+                <div class="col-md-4 col-xs-12 project wow slideInLeft" id="project1">
                     <a href="https://bruscantini.github.io/risk/demo"><img id="risk-logo" src="images/risk_logo.png" alt="risk"></a>
                     <img class="img-fluid img-thumbnail project-pic" src="images/risk-ss.png" alt="bruscantini.github.io/risk">
                     <p>An implementation of RISK: the global domination game. I used HTML5, CSS3 and JavaScript</p>
                 </div>
-                <div class="col-md-4 col-xs-12 project" id="project2">
+                <div class="col-md-4 col-xs-12 project wow zoomIn" id="project2">
                     <a href="http://www.matchfacts.co/"><h2 id="matchfacts-logo">Matchfacts.co</h2></a>
                     <img class="img-fluid img-thumbnail project-pic" src="images/matchfacts-ss.png" alt="matchfacts.co">
                     <p>A web app to statistically compare NBA basketball players. I used HTML, CSS, Node.js, Angular2, and MongoDB</p>
                 </div>
-                <div class="col-md-4 col-xs-12 project" id="project3">
+                <div class="col-md-4 col-xs-12 project wow slideInRight" id="project3">
                     <a href="https://el-swapper.herokuapp.com/"><h2 id="swapper-logo">SWAPPER</h2></a>
                     <img class="img-fluid img-thumbnail project-pic" src="images/swapper-ss.png" alt="el-swapper.herokuapp.com">
                     <p>A bartering website that allows users to trade things (no money!). I used HTML, CSS, Node.js, ExpressJS, and MongoDB</p>
@@ -116,18 +117,18 @@
             <div class="row">
                 <div class="col-md-4"></div>
                 <div class="col-md-4 col-xs-12">
-                    <h1>Hit me up!</h1>
+                    <h1 class="wow fadeInUp">Hit me up!</h1>
                     <hr style="border: 2px solid #FFFFFF; width: 25%; margin-left: 38%">
                     <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span><span id="email">ajbruscantini@gmail.com</span>
-
+                    <div id="resume-link"><a href="misc/resume_anthony_3.pdf">My Resume</a></div>
                 </div>
                 <div class="col-md-4"></div>
             </div>
             <div class="row social-row">
                 <div class="col-xs-12">
-                    <a class="social animated rotateIn" href="https://www.facebook.com/anthony.bruscantini" target="_blank"><i class="fa fa-facebook social-icon fa-4x" aria-hidden="true"></i></a>
-                    <a class="social animated rotateIn" href="https://github.com/bruscantini" target="_blank"><i class="fa fa-github social-icon fa-4x" aria-hidden="true"></i></a>
-                    <a class="social animated rotateIn" href="https://www.linkedin.com/in/bruscantini/" target="_blank"><i class="fa fa-linkedin social-icon fa-4x" aria-hidden="true"></i></a>
+                    <a class="wow social animated rotateIn" href="https://www.facebook.com/anthony.bruscantini" target="_blank"><i class="fa fa-facebook social-icon fa-4x" aria-hidden="true"></i></a>
+                    <a class="wow social animated rotateIn" href="https://github.com/bruscantini" target="_blank"><i class="fa fa-github social-icon fa-4x" aria-hidden="true"></i></a>
+                    <a class="wow social animated rotateIn" href="https://www.linkedin.com/in/bruscantini/" target="_blank"><i class="fa fa-linkedin social-icon fa-4x" aria-hidden="true"></i></a>
                 </div>
             </div>
         </div>
@@ -136,8 +137,14 @@
 
     <!-- jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="javascripts/tether.min.js"></script>
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="javascripts/mdb.min.js"></script>
+
+    <script type="text/javascript" src="javascripts/myjs.js"></script>
 
 </body>
 
