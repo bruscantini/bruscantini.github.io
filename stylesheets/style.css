@@ -51,10 +51,10 @@ a:hover {
   position: fixed;
   z-index: -10;
   width: 100%;
-  height: 100%; }
+  height: 100vh; }
   #landing-background img {
     width: auto;
-    height: 100%;
+    height: 100vh;
     z-index: -20; }
 
 #landing-background::after {
@@ -63,7 +63,7 @@ a:hover {
   left: 0;
   top: 0;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(6, 47, 79, 0.5), rgba(129, 55, 114, 0.5), rgba(184, 38, 1, 0.5)); }
 
 #landing-content {
