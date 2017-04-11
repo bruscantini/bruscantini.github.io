@@ -54,7 +54,8 @@ a:hover {
   height: 100%;
   background: url("../images/background2-min.jpg");
   background-position: center;
-  background-size: cover; }
+  background-size: cover;
+  transition: all 0.5s 10s; }
 
 #landing-background::after {
   content: "";
