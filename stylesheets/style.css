@@ -45,8 +45,7 @@ a:hover {
 
 #landing-section {
   padding-top: 80px;
-  height: 100vh;
-  transition: height 0.5s; }
+  height: 100vh; }
 
 #landing-background {
   position: fixed;
@@ -56,7 +55,8 @@ a:hover {
   #landing-background img {
     width: auto;
     height: 100%;
-    z-index: -20; }
+    z-index: -20;
+    transition: height 0.5s; }
 
 #landing-background::after {
   content: "";
