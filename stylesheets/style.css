@@ -133,10 +133,17 @@ a:hover {
 #contact-section {
   background-color: #000000;
   height: 100vh;
+  width: auto;
   padding-top: 20vh;
   text-align: center; }
   #contact-section hr {
     margin-bottom: 5vh; }
+
+#contact-section-background {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: black; }
 
 #email {
   font-size: 20px;
