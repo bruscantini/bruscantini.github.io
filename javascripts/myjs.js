@@ -1,4 +1,4 @@
-var bg = $("#landing-background");
+var bg = $("#landing-section");
 
 function resizeBackground() {
     bg.height($(window).height() + 60);
